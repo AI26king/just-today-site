@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>今日份 Just Today</title>
+<style>
+  :root {
+    --bg: #F5EFE6;
+    --ink: #1E1B16;
+    --muted: #6B655B;
+    --coral: #E56B4E;
+    --line: rgba(30,27,22,0.08);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.65;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 64px 24px 96px; }
+  header { text-align: center; margin-bottom: 64px; }
+  .logo {
+    width: 96px; height: 96px; border-radius: 22px;
+    background: linear-gradient(135deg, var(--coral), #D4513A);
+    margin: 0 auto 20px;
+    display: flex; align-items: center; justify-content: center;
+    color: white; font-size: 36px; font-weight: 800;
+    font-family: "New York", Georgia, serif;
+    box-shadow: 0 8px 24px rgba(229,107,78,0.25);
+  }
+  h1 {
+    font-family: "New York", Georgia, serif;
+    font-size: 36px; font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+  .tag { color: var(--muted); margin-top: 8px; font-size: 17px; }
+  nav { text-align: center; margin: 40px 0 56px; }
+  nav a {
+    color: var(--coral); text-decoration: none; font-weight: 500;
+    margin: 0 14px; font-size: 15px;
+  }
+  nav a:hover { text-decoration: underline; }
+  section { padding-top: 48px; }
+  section + section { border-top: 1px solid var(--line); margin-top: 48px; }
+  h2 {
+    font-family: "New York", Georgia, serif;
+    font-size: 26px; font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: -0.01em;
+  }
+  h3 {
+    font-size: 16px; font-weight: 600;
+    margin: 28px 0 8px;
+  }
+  p { margin-bottom: 14px; color: var(--ink); }
+  ul { margin: 0 0 14px 20px; color: var(--ink); }
+  li { margin-bottom: 6px; }
+  .meta { color: var(--muted); font-size: 14px; margin-bottom: 28px; }
+  .lang-switch {
+    text-align: center; margin-bottom: 40px;
+    font-size: 13px; color: var(--muted);
+  }
+  .lang-switch a { color: var(--coral); text-decoration: none; margin: 0 6px; }
+  .lang-switch a.active { color: var(--ink); font-weight: 600; }
+  footer {
+    text-align: center; margin-top: 80px;
+    color: var(--muted); font-size: 13px;
+  }
+  footer a { color: var(--muted); }
+  em { color: var(--muted); font-style: normal; }
+  code {
+    background: rgba(30,27,22,0.06);
+    padding: 2px 6px; border-radius: 4px;
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="logo">今</div>
+  <h1>今日份 Just Today</h1>
+  <p class="tag">每天刚刚好的那份日程 · Just enough for today</p>
+</header>
+
+<div class="lang-switch">
+  <a href="#zh" class="active">中文</a> · <a href="#en">English</a>
+</div>
+
+<nav>
+  <a href="#about">关于 About</a>
+  <a href="#support">支持 Support</a>
+  <a href="#privacy">隐私 Privacy</a>
+</nav>
+
+<!-- ============ 中文 ============ -->
+
+<section id="about">
+<h2>关于今日份</h2>
+<p>今日份是一款极简的 iOS 日程 App，主打<em>"每天刚刚好"</em>。</p>
+<p>不是每天都要全力以赴。今日份用三个档位替代无尽待办清单：</p>
+<ul>
+  <li><strong>冲刺日</strong> —— 9 件事，认真做一整天</li>
+  <li><strong>轻松日</strong> —— 5 件事，留下呼吸的缝隙</li>
+  <li><strong>休息日</strong> —— 3 件事，允许自己慢下来</li>
+</ul>
+<p>数据全本地存储 · 无账户 · 无网络 · 无追踪。</p>
+</section>
+
+<section id="support">
+<h2>支持 · FAQ</h2>
+
+<h3>数据会同步到其他设备吗？</h3>
+<p>不会。今日份 v1 是纯本地 App，数据只保存在你当前的 iPhone 上。未来会考虑加入可选的 iCloud 同步。</p>
+
+<h3>可以导出数据吗？</h3>
+<p>v1 暂不支持导出，已列入路线图。</p>
+
+<h3>灵动岛 / 锁屏进度条没出现？</h3>
+<p>请检查：设置 &rsaquo; 面容 ID 与密码 &rsaquo; 锁屏访问 &rsaquo; 实时活动 是否开启；以及今日份 App 的通知权限是否授予。</p>
+
+<h3>Widget 不刷新？</h3>
+<p>iOS 会限制 Widget 刷新频率。长按 Widget 可以手动选择展示内容。</p>
+
+<h3>联系我</h3>
+<p>邮箱：<a href="mailto:nlaiking2026@gmail.com">nlaiking2026@gmail.com</a>，我会尽量在 48 小时内回复。</p>
+</section>
+
+<section id="privacy">
+<h2>隐私政策</h2>
+<p class="meta">最后更新：2026-04-22</p>
+
+<h3>我们不收集任何数据</h3>
+<p>今日份是一款完全在你 iPhone 本地运行的 App。我们不收集、不上传、不分享任何关于你的信息。</p>
+
+<h3>数据存储</h3>
+<p>你在今日份里创建的所有内容（档位、任务、完成记录）都只保存在你的设备本地。这些数据：</p>
+<ul>
+  <li><strong>不会</strong>上传到任何服务器</li>
+  <li><strong>不会</strong>同步到云端（包括我们不使用 iCloud 同步）</li>
+  <li><strong>不会</strong>被我们或任何第三方访问</li>
+</ul>
+
+<h3>无第三方服务</h3>
+<p>今日份不集成：分析 SDK、广告 SDK、崩溃上报、登录系统，或任何其他第三方 SDK。</p>
+
+<h3>权限说明</h3>
+<ul>
+  <li><strong>通知</strong>（可选）：用于提醒今日档位，可随时在设置中关闭</li>
+  <li><strong>Live Activity</strong>：在灵动岛和锁屏展示进度，完全本地</li>
+</ul>
+
+<h3>儿童隐私</h3>
+<p>今日份不针对 13 岁以下儿童设计，也不收集任何儿童信息。</p>
+
+<h3>变更</h3>
+<p>本政策如有变更，会在本页更新"最后更新"日期。</p>
+</section>
+
+<!-- ============ English ============ -->
+
+<section id="en">
+<h2>English</h2>
+<p class="meta">About · Support · Privacy</p>
+
+<h3>About</h3>
+<p>Just Today is a minimalist iOS planner built around <em>"just enough for today."</em> Three modes replace endless to-dos:</p>
+<ul>
+  <li><strong>Sprint Day</strong> — 9 tasks, full focus</li>
+  <li><strong>Easy Day</strong> — 5 tasks, room to breathe</li>
+  <li><strong>Rest Day</strong> — 3 tasks, permission to slow down</li>
+</ul>
+<p>All data stays on your device. No account. No network. No tracking.</p>
+
+<h3>Support</h3>
+<p><strong>Does data sync across devices?</strong> No. Just Today v1 is fully local. Optional iCloud sync is on the roadmap.</p>
+<p><strong>Can I export my data?</strong> Not yet. It's on the roadmap.</p>
+<p><strong>Dynamic Island / Lock Screen not showing?</strong> Check Settings &rsaquo; Face ID &amp; Passcode &rsaquo; Allow Access When Locked &rsaquo; Live Activities, and make sure notifications are granted.</p>
+<p><strong>Widget isn't refreshing?</strong> iOS throttles widget refresh. Long-press to change what's shown.</p>
+<p><strong>Contact:</strong> <a href="mailto:nlaiking2026@gmail.com">nlaiking2026@gmail.com</a> — typical reply within 48 hours.</p>
+
+<h3>Privacy Policy</h3>
+<p class="meta">Last updated: 2026-04-22</p>
+<p><strong>We collect nothing.</strong> Just Today runs entirely on your iPhone. We don't collect, upload, or share any information about you.</p>
+<p><strong>Data storage.</strong> Everything you create — modes, tasks, history — is stored only on your device using iOS local storage. It is never uploaded to any server, never synced to any cloud (not even iCloud), and never accessible to us or third parties.</p>
+<p><strong>No third-party services.</strong> Just Today does not integrate analytics SDKs, advertising SDKs, crash reporting, login systems, or any other third-party SDK.</p>
+<p><strong>Permissions.</strong> Notifications (optional, for mode reminders) and Live Activities (local, for Dynamic Island &amp; Lock Screen progress).</p>
+<p><strong>Children's privacy.</strong> Just Today is not designed for children under 13 and does not knowingly collect data from them.</p>
+<p><strong>Changes.</strong> Any updates to this policy will be reflected by updating the "Last updated" date above.</p>
+</section>
+
+<footer>
+  <p>© 2026 Pani · Made with care</p>
+</footer>
+
+</div>
+</body>
+</html>
