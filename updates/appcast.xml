@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Moday</title>
+    <link>https://ai26king.github.io/just-today-site/updates/appcast.xml</link>
+    <description>Moday for Mac updates</description>
+    <language>zh-CN</language>
+    <item>
+      <title>Moday 1.1.3</title>
+      <pubDate>Sun, 11 Oct 2026 10:40:15 +0200</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>1.1.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h3>Moday 1.1.3</h3>
+<ul>
+<li>新增「检查更新」：菜单栏「Moday → 检查更新…」，或「设置 → 更新」。以后有新版本会自动提示，先看更新说明，点一下即可安装，任务和配对保持不变。</li>
+<li>包含 1.1.2 的全部改进：数量任务按单位记时间、提醒事项写回失败时保留本地完成、修改模板不再抹掉今天已完成的事项、连续点按更顺、配对与备份恢复更稳。</li>
+</ul>
+<ul>
+<li>New: Check for Updates — in the menu bar under “Moday → Check for Updates…”, or Settings → Updates. Future versions are offered automatically: read what’s new, then install with one click; your tasks and pairing stay as they are.</li>
+<li>Includes everything from 1.1.2: per-unit completion times, local completions kept when a Reminders write fails, template edits no longer erase today’s finished items, smoother rapid taps, sturdier pairing and backup restore.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://ai26king.github.io/just-today-site/updates/Moday-1.1.3.zip" length="2662141" type="application/octet-stream" sparkle:edSignature="MswDq+1v+FA5NCE1AjATDCPBmUHMBsY4waKq4if2/Ar+lHOg3h2NRUpYjoUGUYLZ8l8sgCH6WfVTK1mTZbWODg=="/>
+    </item>
+  </channel>
+</rss>
