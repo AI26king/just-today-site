@@ -6,23 +6,25 @@
     <description>Moday for Mac updates</description>
     <language>zh-CN</language>
     <item>
-      <title>Moday 1.1.3</title>
-      <pubDate>Sun, 11 Oct 2026 10:40:15 +0200</pubDate>
-      <sparkle:version>9</sparkle:version>
-      <sparkle:shortVersionString>1.1.3</sparkle:shortVersionString>
+      <title>Moday 1.1.4</title>
+      <pubDate>Wed, 04 Nov 2026 13:59:21 +0100</pubDate>
+      <sparkle:version>10</sparkle:version>
+      <sparkle:shortVersionString>1.1.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-<h3>Moday 1.1.3</h3>
+<h3>Moday 1.1.4</h3>
 <ul>
-<li>新增「检查更新」：菜单栏「Moday → 检查更新…」，或「设置 → 更新」。以后有新版本会自动提示，先看更新说明，点一下即可安装，任务和配对保持不变。</li>
-<li>包含 1.1.2 的全部改进：数量任务按单位记时间、提醒事项写回失败时保留本地完成、修改模板不再抹掉今天已完成的事项、连续点按更顺、配对与备份恢复更稳。</li>
+<li>更简单：只剩「计划 / 今天 / 保底」。每天都是同一种日子，不用再先选今天是哪种。</li>
+<li>★ 是唯一的重量：给最重要的几件标 ★。状态不好时打开「保底」（工具栏开关，或菜单「日子 → 保底」⌘⌥B），只留 ★ 的任务，每件做到最低一步就算。</li>
+<li>去掉了日子类型、出现方式、核心、组合/轮换任务、训练入口和一周节奏页。已有任务和历史记录自动保留并转换，原来的「核心」变成 ★。</li>
 </ul>
 <ul>
-<li>New: Check for Updates — in the menu bar under “Moday → Check for Updates…”, or Settings → Updates. Future versions are offered automatically: read what’s new, then install with one click; your tasks and pairing stay as they are.</li>
-<li>Includes everything from 1.1.2: per-unit completion times, local completions kept when a Reminders write fails, template edits no longer erase today’s finished items, smoother rapid taps, sturdier pairing and backup restore.</li>
+<li>Simpler: just plan, today and floor. Every day is the same kind of day — no more picking a day type first.</li>
+<li>★ is the only weight: star the few things that matter most. On a low day turn on Floor (toolbar switch, or Day → Floor ⌘⌥B) to keep only the ★ tasks; the smallest step of each counts.</li>
+<li>Day types, appearance modes, core, task groups/rotations, training and the weekly rhythm page are gone. Existing tasks and history are kept and converted automatically; former core tasks become ★.</li>
 </ul>
       ]]></description>
-      <enclosure url="https://ai26king.github.io/just-today-site/updates/Moday-1.1.3.zip" length="2662141" type="application/octet-stream" sparkle:edSignature="MswDq+1v+FA5NCE1AjATDCPBmUHMBsY4waKq4if2/Ar+lHOg3h2NRUpYjoUGUYLZ8l8sgCH6WfVTK1mTZbWODg=="/>
+      <enclosure url="https://ai26king.github.io/just-today-site/updates/Moday-1.1.4.zip" length="3235784" type="application/octet-stream" sparkle:edSignature="24HU3dFAsgJOyPQuavu2C4Fao4rjZ7XI3A16GxW9VtpYOauLrKcrepiqPDbmFUPcmoj9nMKV+ETb9kIq3jZgDQ=="/>
     </item>
   </channel>
 </rss>
